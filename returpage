@@ -1,30 +1,38 @@
-<div style="background-color:#FFFBEC; color:#4D702C; font-family:Arial, sans-serif; margin: 0; padding: 0; display: flex; justify-content: center; align-items: center; flex-direction: column; min-height: 100vh;">
-    <div style="display: flex; justify-content: center; align-items: center; background-color: white; padding: 40px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); max-width: 600px; width: 100%; flex-direction: column;">
-        
-        <!-- Logo DaTerra -->
-        <div style="margin-bottom: 20px;">
-            <img src="DaTerra_250x125-removebg-preview.png" alt="Logo DaTerra" style="width: 150px; height: auto;">
-        </div>
-        
-        <!-- Conteúdo de agradecimento -->
-        <div style="max-width: 100%; width: 100%; text-align: center;">
-            <h1 style="color:#EE8100; margin-bottom: 20px;">Obrigado pelo seu cadastro!</h1>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cadastro DaTerra</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <!-- Logo DaTerra -->
+            <div class="logo">
+                <img src="images/DaTerra_250x125-removebg-preview.png" alt="Logo DaTerra">
+            </div>
             
-            <p style="font-size: 18px; margin-bottom: 15px;">
-                Parabéns! O seu pré-cadastro na <strong>DaTerra</strong> foi realizado com sucesso.
-            </p>
-            
-            <p style="font-size: 16px; margin-bottom: 15px;">
-                Estamos empolgados por tê-lo conosco em nossa missão de promover uma alimentação saudável e sustentável. Sua conta está em fase de avaliação e será ativada em breve. Fique atento ao seu e-mail, pois você receberá uma confirmação dentro das próximas 24 horas.
-            </p>
-            
-            <p style="font-size: 16px; margin-bottom: 15px;">
-                Agradecemos o seu interesse em fazer parte da nossa comunidade de produtores e consumidores conscientes. Em breve, você terá acesso completo à nossa plataforma e poderá desfrutar de todos os benefícios que a <strong>DaTerra</strong> oferece.
-            </p>
-            
-            <a href="/" style="display: inline-block; margin-top: 20px; padding: 15px 30px; background-color:#4D702C; color:#EE8100; text-decoration: none; border-radius: 5px; font-size: 16px;">
-                Voltar à página inicial
-            </a>
+            <!-- Conteúdo de agradecimento -->
+            <div class="message">
+                <h1>Obrigado pelo seu cadastro!</h1>
+                
+                <p>
+                    Parabéns! O seu pré-cadastro na <strong>DaTerra</strong> foi realizado com sucesso.
+                </p>
+                
+                <p>
+                    Estamos empolgados por tê-lo conosco em nossa missão de promover uma alimentação saudável e sustentável. Sua conta está em fase de avaliação e será ativada em breve. Fique atento ao seu e-mail, pois você receberá uma confirmação dentro das próximas 24 horas.
+                </p>
+                
+                <p>
+                    Agradecemos o seu interesse em fazer parte da nossa comunidade de produtores e consumidores conscientes. Em breve, você terá acesso completo à nossa plataforma e poderá desfrutar de todos os benefícios que a <strong>DaTerra</strong> oferece.
+                </p>
+                
+                <a href="/" class="button">Voltar à página inicial</a>
+            </div>
         </div>
     </div>
-</div>
+</body>
+</html>
